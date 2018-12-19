@@ -1,5 +1,7 @@
 function takeANumber(line, name) {
-  
+  for (let i = 0; i < line.length; i++) {
+    return `Welcome, ${line[i]}. You are number ${i + 1} in line.`;
+  }
 }
 
 function nowServing(line) {
